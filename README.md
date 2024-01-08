@@ -14,6 +14,25 @@ pnpm dev
 bun dev
 ```
 
+Docker command:
+
+```bash
+# initiate docker
+docker init
+
+# run docker compose
+docker compose up
+
+# stop running
+docker compose stop
+
+# watching
+docker compose watch
+```
+
+- Learn more about [Docker instructions](https://docs.docker.com/engine/reference/builder/)
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
